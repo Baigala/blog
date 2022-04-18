@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0ceff;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container,
+.loginContainer {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 400px;
+}
+.loginContainer {
+    width: 300px;
+}
+.header {
+  border-bottom: 1px solid #f0f0f0;
+  background-color: #f7f7f7;
+  padding: 10px 40px;
+}
+
+.header h2 {
+  margin: 0;
+  color: #9300ff;
+  font-weight: 500;
+}
+#newtreh {
+    color: #9300ff;
+    font-weight: 500;
+    font-size: 1.4rem;
+    padding: .6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+  padding: 14px 40px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+a {
+  text-decoration: none;
+}
+.form-control label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-family: inherit;
+  font-size: 14px;
+  padding: 8px;
+  width: 100%;
+}
+
+.form-control input:focus {
+  outline: 0;
+  border-color: #777;
+}
+
+.form-control.error input {
+  border-color: #e74c3c;
+}
+
+.form-control small {
+  color: #e74c3c;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.form-control.error small {
+  visibility: visible;
+}
+.form-control #password {
+  position: relative;
+}
+.form-control i {
+  position: absolute;
+  top: 33px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.form button {
+  background-color: #c175ff;
+  border: 2px solid #c175ff;
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+.login_label {
+  text-decoration: none;
+  float: right;
+  padding: .5rem .5rem 1rem .5rem;
+}
+/* Account style */
+.name {
+    font-size: 2rem;
+}
